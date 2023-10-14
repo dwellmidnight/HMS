@@ -2,7 +2,7 @@
 Hospital Management System in Turbo c++
 
 
-**Project Overview - Hospital Management System**
+**Hospital Management System**
 
 - **User Authentication**: I have implemented a user authentication system where different roles (admin, doctor, nurse) can log in using their usernames and passwords. The system validates user credentials and assigns roles based on login.
 
