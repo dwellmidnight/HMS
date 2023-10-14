@@ -1,2 +1,45 @@
 # HMS
 Hospital Management System in Turbo c++
+
+
+**Project Overview - Hospital Management System**
+
+- **User Authentication**: You have implemented a user authentication system where different roles (admin, doctor, nurse) can log in using their usernames and passwords. The system validates user credentials and assigns roles based on login.
+
+- **Patient Management**:
+  - Users with admin privileges can add and delete patient records.
+  - Patient records include information such as name, age, address, and phone number.
+  - There's a limit to the number of patients that can be added.
+
+- **Doctor Management**:
+  - Users with admin privileges can add and delete doctor records.
+  - Doctor records include details like name, address, phone number, specialization, experience, and join date.
+  - Similar to patients, there's a limit to the number of doctors that can be added.
+
+- **Appointment Management**:
+  - All users can book and delete appointments.
+  - Appointments are tied to both a patient and a doctor, and they have date and time information.
+  - A limit is also set on the number of appointments that can be booked.
+
+- **Menu-Driven Interface**:
+  - You've designed a user-friendly menu-driven interface. The available menu options vary depending on the user's role (admin, doctor, nurse).
+  - Common options include appointment booking, displaying records, searching, and exiting.
+  - Admins can add and delete patients and doctors, while doctors and nurses have additional options related to appointments and updating patient records.
+
+- **Display and Search Functions**:
+  - The project features functions for displaying and searching patient, doctor, and appointment records.
+  - The search feature allows users to search based on specific criteria, such as patient names or appointment dates.
+
+- **Input Validation and Error Handling**:
+  - Basic input validation and error handling are incorporated, such as checking for input buffer issues and data limits.
+
+- **Initialization**:
+  - Sample users (admin, doctor, nurse) with predefined usernames and passwords are set up initially.
+
+- **Main Loop**:
+  - The project features a main program loop where users interact with the system based on their roles and menu choices.
+
+- **User Exit and Input Handling**:
+  - The program waits for user input before exiting, providing a user-friendly way to interact with the system.
+
+This project serves as a basic but functional hospital management system that allows users to manage patient and doctor records, book appointments, and perform related tasks based on their roles. It offers a practical example of a menu-driven interface and user authentication in a healthcare context.
