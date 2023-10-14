@@ -4,7 +4,7 @@ Hospital Management System in Turbo c++
 
 **Project Overview - Hospital Management System**
 
-- **User Authentication**: You have implemented a user authentication system where different roles (admin, doctor, nurse) can log in using their usernames and passwords. The system validates user credentials and assigns roles based on login.
+- **User Authentication**: I have implemented a user authentication system where different roles (admin, doctor, nurse) can log in using their usernames and passwords. The system validates user credentials and assigns roles based on login.
 
 - **Patient Management**:
   - Users with admin privileges can add and delete patient records.
@@ -22,7 +22,7 @@ Hospital Management System in Turbo c++
   - A limit is also set on the number of appointments that can be booked.
 
 - **Menu-Driven Interface**:
-  - You've designed a user-friendly menu-driven interface. The available menu options vary depending on the user's role (admin, doctor, nurse).
+  - I've designed a user-friendly menu-driven interface. The available menu options vary depending on the user's role (admin, doctor, nurse).
   - Common options include appointment booking, displaying records, searching, and exiting.
   - Admins can add and delete patients and doctors, while doctors and nurses have additional options related to appointments and updating patient records.
 
